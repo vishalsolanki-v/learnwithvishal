@@ -32,13 +32,17 @@ function App() {
   const currentDay = findDateDifference(new Date(), hardDayStart);
   return (
     <>
-      <div className="maindiv flex items-center backgroundPattern justify-center">
-        
-        <div className="clock-tower line-clamp-3 leading-normal text-center absolute bg-gradient-to-r from-slate-200 to-slate-700 bg-clip-text text-transparent text-8xl font-extrabold">
+      <div className="maindiv flex items-center backgroundPatternPhone backgroundPattern  justify-center">
+        <nav className="absolute top-0 right-0 flex-wrap text-white flex gap-2 sm:gap-4 justify-end p-2">
+<p className="button-54">Start Learing</p>
+          <p className="button-54">Contact Me</p>
+<p className="button-54">Want to Suggest Something?</p>
+        </nav>
+        <div className="clock-tower py-3  leading-normal text-center absolute bg-gradient-to-r from-slate-200 to-slate-700 bg-clip-text text-transparent sm:text-7xl text-5xl font-extrabold">
           {date}
           <br />
           DAY {currentDay} JAVASCRIPT
-          <p className="text-7xl">Work Hard Kid your life Depends on It</p>
+          <p className="sm:text-7xl text-2xl">Work Hard Kid your life Depends on It</p>
         </div>
       </div>
     </>
