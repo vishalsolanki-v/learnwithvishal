@@ -38,7 +38,7 @@ function App() {
           {date}
           <br />
           DAY {currentDay} JAVASCRIPT
-          <p className="">Work Hard Kid your life Depends on It</p>
+          <p className="text-7xl">Work Hard Kid your life Depends on It</p>
         </div>
       </div>
     </>
